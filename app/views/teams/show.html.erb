@@ -20,5 +20,15 @@
   <%= @team.stadium %>
 </p>
 
+<p>
+  <strong>Conference:</strong>
+  <%= @team.conference_id %>
+</p>
+
+<p>
+  <strong>Division:</strong>
+  <%= @team.division_id %>
+</p>
+
 <%= link_to 'Edit', edit_team_path(@team) %> |
 <%= link_to 'Back', teams_path %>
